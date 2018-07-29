@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--声明属性 format设置属性的单位 dimension单位是像素这种-->
+    <attr name="progress_unreach_cololr" format="color"></attr>
+    <attr name="progress_unreach_height" format="dimension"></attr>
+    <attr name="progress_reach_cololr" format="color"></attr>
+    <attr name="progress_reach_height" format="dimension"></attr>
+    <attr name="progress_text_size" format="dimension"></attr>
+    <attr name="progress_text_color" format="color"></attr>
+    <attr name="progress_text_offset" format="dimension"></attr>
+
+    <!--设置使用的attrs 在代码中可以引用-->
+    <declare-styleable name="HorizontalProgressWithProgressbar">
+        <attr name="progress_unreach_cololr"></attr>
+        <attr name="progress_unreach_height"></attr>
+        <attr name="progress_reach_cololr"></attr>
+        <attr name="progress_reach_height"></attr>
+        <attr name="progress_text_size"></attr>
+        <attr name="progress_text_color"></attr>
+        <attr name="progress_text_offset"></attr>
+    </declare-styleable>
+</resources>
