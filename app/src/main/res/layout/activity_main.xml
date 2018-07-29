@@ -44,4 +44,16 @@
         app:progress_text_color="@color/colorPrimary"
         app:progress_text_size="15sp" />
 
+
+    <com.wj.my_progressbar.view.CircleProgressWithProgressbar
+        android:id="@+id/pro_2"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="20dp"
+        android:padding="30dp"
+        android:progress="80"
+        app:progress_text_color="@color/colorPrimary"
+        app:progress_text_size="15sp"
+        app:radius="80dp" />
+
 </LinearLayout>

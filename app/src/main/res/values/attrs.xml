@@ -19,4 +19,9 @@
         <attr name="progress_text_color"></attr>
         <attr name="progress_text_offset"></attr>
     </declare-styleable>
+
+    <!--圆形进度条-->
+    <declare-styleable name="CircleProgressWithProgressbar">
+        <attr name="radius" format="dimension"></attr>
+    </declare-styleable>
 </resources>
